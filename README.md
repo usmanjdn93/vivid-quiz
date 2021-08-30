@@ -8,11 +8,11 @@
 
 1. Clone the repo and `cd ` into it
 2. `composer install`
-3. Rename or copy .env.example file to .env
+3. Rename or copy .env.example file to .env `cp .env.example .env`
 4. `php artisan migrate --seed`
-5. `php artisan serve` or use Laravel Valet or Laravel Homestead
-6. `npm install`
-7. `npm run dev`
+5. `npm install`
+6. `npm run dev`
+7. `php artisan serve` or use Laravel Valet or Docker
 8. Visit localhost:8000 in your browser
 9. login detail 
    1. user `user@test.com`
